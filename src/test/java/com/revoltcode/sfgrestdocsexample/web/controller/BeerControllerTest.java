@@ -6,11 +6,14 @@ import com.revoltcode.sfgrestdocsexample.repositories.BeerRepository;
 import com.revoltcode.sfgrestdocsexample.web.model.BeerDto;
 import com.revoltcode.sfgrestdocsexample.web.model.BeerStyleEnum;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.autoconfigure.restdocs.AutoConfigureRestDocs;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.MediaType;
+import org.springframework.restdocs.RestDocumentationExtension;
 import org.springframework.test.web.servlet.MockMvc;
 
 import java.math.BigDecimal;
@@ -22,8 +25,10 @@ import static org.mockito.BDDMockito.given;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
+@ExtendWith(RestDocumentationExtension.class) // we need the rest documentation extension
+@AutoConfigureRestDocs // Auto configures restdocs for us
 @WebMvcTest(BeerController.class)
-@ComponentScan(basePackages = "guru.springframework.sfgrestdocsexample.web.mappers")
+@ComponentScan(basePackages = "com.revoltcode.sfgrestdocsexample.web.mappers")
 class BeerControllerTest {
 
     @Autowired

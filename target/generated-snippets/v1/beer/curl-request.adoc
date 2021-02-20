@@ -1,5 +1,5 @@
 [source,bash]
 ----
-$ curl 'http://localhost:8080/api/v1/beer/383b0524-a9bf-4a31-9ffe-5b6246985a60?isCold=yes' -i -X GET \
+$ curl 'http://localhost:8080/api/v1/beer/a05763ac-d53e-448a-9e7a-5169fb1d195c?isCold=yes' -i -X GET \
     -H 'Accept: application/json'
 ----

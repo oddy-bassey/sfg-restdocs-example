@@ -1,0 +1,11 @@
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/web/mappers/DateMapper.java
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/domain/Beer.java
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/web/controller/BeerController.java
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/web/model/BeerPagedList.java
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/web/mappers/BeerMapper.java
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/web/controller/MvcExceptionHandler.java
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/repositories/BeerRepository.java
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/web/model/BeerStyleEnum.java
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/web/model/BeerDto.java
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/bootstrap/BeerLoader.java
+/home/revoltcode/IdeaProjects/sfg-restdocs-example-master/src/main/java/com/revoltcode/sfgrestdocsexample/SfgRestdocsExampleApplication.java

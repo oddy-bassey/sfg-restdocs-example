@@ -1,20 +1,24 @@
-|===
-|Path|Type|Description
+    |===
+        |Path|Type|Description|Constraints
 
-|`+beerName+`
-|`+String+`
-|Name of beer
+        |beerName
+        |String
+        |Name of beer
+        |Must not be blank. Size must be between 3 and 100 inclusive
 
-|`+beerStyle+`
-|`+String+`
-|Style of beer
+        |beerStyle
+        |String
+        |Style of beer
+        |Must not be null
 
-|`+upc+`
-|`+Number+`
-|Beer UPC
+        |upc
+        |Number
+        |Beer UPC
+        |Must be positive. Must not be null
 
-|`+price+`
-|`+Number+`
-|Beer price
+        |price
+        |Number
+        |Beer price
+        |Must be positive. Must not be null
 
-|===
+        |===

@@ -1,0 +1,14 @@
+com/revoltcode/sfgrestdocsexample/web/model/BeerPagedList.class
+com/revoltcode/sfgrestdocsexample/web/mappers/DateMapper.class
+com/revoltcode/sfgrestdocsexample/web/controller/BeerController.class
+com/revoltcode/sfgrestdocsexample/web/model/BeerDto$BeerDtoBuilder.class
+com/revoltcode/sfgrestdocsexample/web/model/BeerDto.class
+com/revoltcode/sfgrestdocsexample/web/mappers/BeerMapperImpl.class
+com/revoltcode/sfgrestdocsexample/web/model/BeerStyleEnum.class
+com/revoltcode/sfgrestdocsexample/repositories/BeerRepository.class
+com/revoltcode/sfgrestdocsexample/SfgRestdocsExampleApplication.class
+com/revoltcode/sfgrestdocsexample/web/mappers/BeerMapper.class
+com/revoltcode/sfgrestdocsexample/web/controller/MvcExceptionHandler.class
+com/revoltcode/sfgrestdocsexample/domain/Beer$BeerBuilder.class
+com/revoltcode/sfgrestdocsexample/domain/Beer.class
+com/revoltcode/sfgrestdocsexample/bootstrap/BeerLoader.class

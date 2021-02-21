@@ -1,0 +1,5 @@
+[source,bash]
+----
+$ curl 'https://dev.revoltcode.gagebug:80/api/v1/beer/9245924c-fc52-42ea-abc7-631f8091f3d0?isCold=yes' -i -X GET \
+    -H 'Accept: application/json'
+----

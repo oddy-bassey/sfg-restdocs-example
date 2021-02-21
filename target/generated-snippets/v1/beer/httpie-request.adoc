@@ -1,5 +1,0 @@
-[source,bash]
-----
-$ http GET 'https://dev.revoltcode.gagebug:80/api/v1/beer/a07d9e35-75dc-437e-891f-5c5671d00950?isCold=yes' \
-    'Accept:application/json'
-----

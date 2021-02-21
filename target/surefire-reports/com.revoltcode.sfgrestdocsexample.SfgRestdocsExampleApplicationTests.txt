@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.revoltcode.sfgrestdocsexample.SfgRestdocsExampleApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 21.593 s - in com.revoltcode.sfgrestdocsexample.SfgRestdocsExampleApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 18.313 s - in com.revoltcode.sfgrestdocsexample.SfgRestdocsExampleApplicationTests

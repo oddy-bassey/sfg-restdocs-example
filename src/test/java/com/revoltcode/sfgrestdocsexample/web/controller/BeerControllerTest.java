@@ -34,7 +34,7 @@ import static org.springframework.restdocs.snippet.Attributes.key;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @ExtendWith(RestDocumentationExtension.class) // we need the rest documentation extension
-@AutoConfigureRestDocs // Auto configures restdocs for us
+@AutoConfigureRestDocs(uriScheme = "https", uriHost = "dev.revoltcode.gagebug", uriPort = 80) // Auto configures restdocs for us
 @WebMvcTest(BeerController.class)
 @ComponentScan(basePackages = "com.revoltcode.sfgrestdocsexample.web.mappers")
 class BeerControllerTest {

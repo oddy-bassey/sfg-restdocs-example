@@ -1,6 +1,6 @@
 [source,http,options="nowrap"]
 ----
-GET /api/v1/beer/9245924c-fc52-42ea-abc7-631f8091f3d0?isCold=yes HTTP/1.1
+GET /api/v1/beer/b3a57d3e-b754-4718-8cda-b00202ea424f?isCold=yes HTTP/1.1
 Accept: application/json
 Host: dev.revoltcode.gagebug:80
 
